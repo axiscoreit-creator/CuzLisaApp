@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Friendship coaching, self-paced social confidence training, and manual friend matching for adults who want deeper connection.">
+    <title>Real Friendship Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Real Friendship Lab home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span>Real Friendship Lab</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open navigation</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#coaching">Coaching</a>
+        <a href="#modules">Modules</a>
+        <a href="#survey">Survey</a>
+        <a href="#matching">Matching</a>
+        <a href="#book" class="nav-cta">Book</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <img class="hero-image" src="assets/friendship-hero.png" alt="Adults in a bright community room having a relaxed conversation.">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Friendship coaching and guided matching</p>
+          <h1>Helping people build real friendships with confidence.</h1>
+          <p class="hero-copy">Practical social confidence, conversation skills, and connection habits through coaching, guided practice, and self-paced training.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#book">Book a session</a>
+            <a class="button secondary" href="#survey">Join the matching waitlist</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Core services">
+        <div class="intro-grid">
+          <article>
+            <span class="mini-icon" aria-hidden="true">01</span>
+            <h2>Friend matching</h2>
+            <p>Start with a thoughtful intake survey, then get manually reviewed suggestions based on compatibility, goals, boundaries, and availability.</p>
+          </article>
+          <article>
+            <span class="mini-icon" aria-hidden="true">02</span>
+            <h2>One-on-one coaching</h2>
+            <p>Practice conversation, approachability, body language, social confidence, and follow-through in a supportive coaching environment.</p>
+          </article>
+          <article>
+            <span class="mini-icon" aria-hidden="true">03</span>
+            <h2>Self-paced training</h2>
+            <p>Use videos, worksheets, exercises, and reflection prompts to build connection habits at your own pace.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="coaching" class="section split">
+        <div>
+          <p class="eyebrow">Friendship coaching</p>
+          <h2>Practice the skills that make connection feel less mysterious.</h2>
+          <p>Real Friendship Lab helps adults build the social confidence, conversation range, and everyday habits that make friendship more likely to happen and easier to maintain.</p>
+          <p>The coaching philosophy is practical and kind: skill-building without shame, structured practice without scripts that make you sound unlike yourself, and honest feedback that helps you keep improving.</p>
+        </div>
+        <div class="panel">
+          <h3>Coaching focus areas</h3>
+          <ul class="check-list">
+            <li>Starting and deepening conversations</li>
+            <li>Reading body language and social cues</li>
+            <li>Confidence, approachability, and warmth</li>
+            <li>Social anxiety support and gradual practice</li>
+            <li>Following up, inviting, and building consistency</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="modules" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Self-paced modules</p>
+          <h2>Training you can revisit before real social moments.</h2>
+        </div>
+        <div class="module-grid">
+          <article class="module-card">
+            <span>Module 1</span>
+            <h3>Social confidence basics</h3>
+            <p>Understand your social style, reduce avoidance loops, and choose practice steps that feel doable.</p>
+          </article>
+          <article class="module-card">
+            <span>Module 2</span>
+            <h3>Conversation that connects</h3>
+            <p>Practice openers, follow-up questions, story sharing, and graceful transitions.</p>
+          </article>
+          <article class="module-card">
+            <span>Module 3</span>
+            <h3>Approachability and presence</h3>
+            <p>Work on body language, tone, listening, and the tiny signals that make people feel welcome.</p>
+          </article>
+          <article class="module-card">
+            <span>Module 4</span>
+            <h3>From acquaintance to friend</h3>
+            <p>Learn how to invite, follow up, deepen trust, and create recurring connection.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="survey" class="section survey-section">
+        <div class="section-heading">
+          <p class="eyebrow">Friend match survey</p>
+          <h2>Start with a thoughtful intake.</h2>
+          <p>The first version can run through Google Forms and Sheets. This page gives you the exact intake experience to recreate or connect later.</p>
+        </div>
+
+        <form class="survey-form" id="friendSurvey">
+          <div class="form-grid">
+            <label>
+              Name
+              <input name="name" autocomplete="name" placeholder="Your name">
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" autocomplete="email" placeholder="you@example.com">
+            </label>
+            <label>
+              Age range
+              <select name="age">
+                <option value="">Select one</option>
+                <option>18-24</option>
+                <option>25-34</option>
+                <option>35-44</option>
+                <option>45-54</option>
+                <option>55+</option>
+              </select>
+            </label>
+            <label>
+              Location
+              <input name="location" placeholder="City, state, or online-only">
+            </label>
+            <label>
+              Social style
+              <select name="style">
+                <option value="">Select one</option>
+                <option>Mostly introverted</option>
+                <option>Ambivert</option>
+                <option>Mostly extroverted</option>
+                <option>Still figuring it out</option>
+              </select>
+            </label>
+            <label>
+              Comfort level
+              <select name="comfort">
+                <option value="">Select one</option>
+                <option>I feel anxious and need gentle practice</option>
+                <option>I can socialize, but I struggle to deepen friendships</option>
+                <option>I am comfortable socially and want better matches</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            Hobbies and interests
+            <textarea name="hobbies" rows="3" placeholder="Books, fitness, gaming, volunteering, art, food, music, hiking, faith community, professional interests..."></textarea>
+          </label>
+          <label>
+            Communication style
+            <textarea name="communication" rows="3" placeholder="Text-heavy, voice calls, in-person plans, low-pressure check-ins, direct communication, reflective conversations..."></textarea>
+          </label>
+          <label>
+            Values and boundaries
+            <textarea name="values" rows="3" placeholder="Important values, dealbreakers, pace preferences, privacy needs, topics you avoid, accessibility needs..."></textarea>
+          </label>
+
+          <fieldset>
+            <legend>Friendship goals</legend>
+            <div class="choice-grid">
+              <label><input type="checkbox" name="goals" value="Casual friends"> Casual friends</label>
+              <label><input type="checkbox" name="goals" value="Deep friendship"> Deep friendship</label>
+              <label><input type="checkbox" name="goals" value="Accountability"> Accountability</label>
+              <label><input type="checkbox" name="goals" value="Social practice"> Social practice</label>
+              <label><input type="checkbox" name="goals" value="Activity partners"> Activity partners</label>
+              <label><input type="checkbox" name="goals" value="Online friendships"> Online friendships</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Preferred activities</legend>
+            <div class="choice-grid">
+              <label><input type="checkbox" name="activities" value="Coffee or meals"> Coffee or meals</label>
+              <label><input type="checkbox" name="activities" value="Walks or fitness"> Walks or fitness</label>
+              <label><input type="checkbox" name="activities" value="Creative projects"> Creative projects</label>
+              <label><input type="checkbox" name="activities" value="Study or work sessions"> Study or work sessions</label>
+              <label><input type="checkbox" name="activities" value="Events and groups"> Events and groups</label>
+              <label><input type="checkbox" name="activities" value="Video calls"> Video calls</label>
+            </div>
+          </fieldset>
+
+          <label>
+            Availability
+            <textarea name="availability" rows="2" placeholder="Weeknights, weekends, daytime, time zone, frequency..."></textarea>
+          </label>
+
+          <button class="button primary" type="submit">Preview intake response</button>
+          <p class="form-note" id="surveyStatus" role="status"></p>
+        </form>
+      </section>
+
+      <section id="matching" class="section split">
+        <div>
+          <p class="eyebrow">Community and matching</p>
+          <h2>Begin manually, then grow only when demand proves it.</h2>
+          <p>For the MVP, survey results can flow into a simple sheet. You review each person, tag key traits, and introduce compatible people with clear expectations and safety guidelines.</p>
+        </div>
+        <div class="timeline" aria-label="Matching roadmap">
+          <div><strong>Phase 1</strong><span>Google Forms and Sheets with manual matching</span></div>
+          <div><strong>Phase 2</strong><span>Airtable or Notion database with tags</span></div>
+          <div><strong>Phase 3</strong><span>Login, saved profiles, and algorithmic matching</span></div>
+          <div><strong>Phase 4</strong><span>Messaging, groups, events, and memberships</span></div>
+        </div>
+      </section>
+
+      <section id="book" class="section booking-section">
+        <div class="booking-copy">
+          <p class="eyebrow">Book a session</p>
+          <h2>Get coached through the next friendship step.</h2>
+          <p>Use this area for Calendly, Google Calendar appointment scheduling, or a built-in booking flow with Stripe payment once the offer is ready.</p>
+        </div>
+        <div class="booking-box">
+          <h3>Starter session</h3>
+          <p>60 minutes to map your friendship goals, identify friction points, and choose a practical plan for the next two weeks.</p>
+          <a class="button primary full" href="mailto:hello@example.com?subject=Friendship%20coaching%20session">Request a coaching call</a>
+          <a class="button ghost full" href="#survey">Take the friend match survey</a>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Questions, partnerships, or early tester interest.</h2>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label>
+            Email
+            <input type="email" name="contactEmail" placeholder="you@example.com">
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Tell me what you are looking for."></textarea>
+          </label>
+          <button class="button primary" type="submit">Prepare message</button>
+          <p class="form-note" id="contactStatus" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Real Friendship Lab</p>
+      <a href="#home">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
